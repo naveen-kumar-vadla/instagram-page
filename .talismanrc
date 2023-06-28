@@ -1,4 +1,6 @@
 fileignoreconfig:
 - filename: demo.html
   checksum: 5d6cc8e825fa5f6f49f1d614e0af453fd0de9dd24327c8d0d3cd1eb45aba0350
+- filename: demo.js
+  checksum: 16f83d4178c63158bacf0b99c7d431f87c5b849a179a54c9d65dbdf7314c7753
 version: "1.0"
