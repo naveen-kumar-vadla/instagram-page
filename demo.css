@@ -18,6 +18,11 @@ body {
 #feed {
   height: 100%;
   width: 60%;
+  overflow: scroll;
+}
+
+#feed::-webkit-scrollbar {
+  display: none;
 }
 
 #profile {
