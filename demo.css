@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+#options,
+#feed {
+  border-right: 1px solid gray;
+}
+
+#options {
+  height: 100%;
+  width: 20%;
+}
+
+#feed {
+  height: 100%;
+  width: 60%;
+}
+
+#profile {
+  height: 100%;
+  width: 20%;
+  padding-left: 2%;
+}
+
+.post {
+  border: 1px solid white;
+  width: 50%;
+  margin: 3% auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.post-content {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.post-content img {
+  width: 100%;
+  height: 100%;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header img {
+  width: 40px;
+}
+
+.profile-info p {
+  margin: 5px;
+}
+
+.option {
+  display: flex;
+}
+
+.option p {
+  margin-left: 3%;
+  font-size: 20px;
+}
